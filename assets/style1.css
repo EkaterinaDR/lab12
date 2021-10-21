@@ -1,0 +1,247 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../assets/img/1.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.con{
+  width: 600px;
+  font-size: 25px;
+  background-color: #FFFFFF;
+}
+.gl {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cont_2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.cont_4{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.cont_3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.cont_5{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.cont_6{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.tex{
+  font-size: 30px;
+  color: #000;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: rgba(255, 69, 0);
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.texs{
+  font-size: 30px;
+  color: #000;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: rgba(255, 69, 0);
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.texs_1{
+  font-size: 30px;
+  color: #000;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: rgba(255, 69, 0);
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.but {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.page2 {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #4B0082, #BA55D3);
+}
+.page2_1 {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #191970, #87CEFA);
+}
+
+.but_2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+.bt{
+  text-align: center;
+  color: #000;
+  font-size: 55px;
+  font-weight: 600;
+  background-color: rgba(255, 69, 0);
+}
+.glitch-wrapper {
+  background-color: rgb(255, 69, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.glitch {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #000;
+  font-size: 100px;
+  text-transform: upercase;
+  position: relative;
+  display: inline-block;
+}
+.glitch:after {
+  background-color: #000;
+  display: block;
+  content: "";
+  height: 8px;
+  width: 0px;
+  left:50%;
+  position:absolute;
+  -webkit-transition: width .3s ease-in-out;
+  -moz-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  transform:translateX(-50%);
+  }
+  .glitch:hover:after,
+  .glitch:focus:after {
+  width: 100%;
+  }
+  .can{
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+.text{
+  display: flex;
+  background: url(../assets/img/1.jpg)no-repeat center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 25%;
+}
+
+.fon{
+  background: url(../assets/img/9.jpg)no-repeat center;
+  background-size: cover;
+}
+.fon_1{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #FF4500;
+}
+.accordian {
+	width: 805px; height: 450px;
+	overflow: hidden;
+	
+	margin: 100px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+.accordian ul {
+	width: 2000px;
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+
+.accordian ul:hover li {width: 40px;}
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+    width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
